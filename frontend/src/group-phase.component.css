@@ -1,0 +1,27 @@
+.container { padding: 20px; font-family: sans-serif; }
+.selector-container { margin-bottom: 20px; font-size: 1.1rem; }
+select { padding: 8px 12px; font-size: 1rem; border-radius: 4px; }
+.badge-own { background-color: #e67e22; color: white; padding: 4px 8px; margin-left: 10px; border-radius: 4px; font-size: 0.85rem; }
+
+.standings-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+.standings-table th, .standings-table td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+.standings-table th { background-color: #2c3e50; color: white; }
+
+/* REQUISITO: Destacar visualmente tu equipo */
+.highlight-row { background-color: #fff3e0 !important; border-left: 5px solid #e67e22; }
+.highlight-row td { font-weight: bold; }
+
+.q-badge { color: green; font-size: 0.8rem; margin-left: 5px; font-weight: bold; }
+
+.matches-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; margin-top: 15px; }
+.match-card { border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9; }
+.match-card.played { border-left: 4px solid #2ecc71; }
+.match-teams { display: flex; justify-content: space-between; margin-bottom: 10px; }
+.vs { color: #7f8c8d; font-style: italic; }
+.winner { color: #27ae60; font-weight: bold; }
+.score { display: block; font-size: 0.9rem; color: #555; margin-bottom: 5px; }
+.status-badge { font-size: 0.75rem; padding: 3px 6px; border-radius: 3px; color: white; }
+.status-badge.done { background-color: #2ecc71; }
+.status-badge.pending { background-color: #95a5a6; }
+
+.empty-state, .error-state, .loading-state { text-align: center; padding: 40px; border: 2px dashed #ccc; border-radius: 8px; margin: 20px 0; }
